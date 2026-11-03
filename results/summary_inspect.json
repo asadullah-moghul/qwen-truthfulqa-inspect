@@ -1,0 +1,34 @@
+{
+  "model": "hf/Qwen/Qwen2.5-0.5B-Instruct",
+  "framework": "Inspect + inspect_evals",
+  "truthfulqa_mc1": {
+    "n": 50,
+    "accuracy": 0.22,
+    "ci95": [
+      0.1,
+      0.34
+    ],
+    "chance": 0.2429,
+    "format_failure_rate": 0.0,
+    "answered_share": {
+      "A": 0.06,
+      "B": 0.3,
+      "C": 0.26,
+      "D": 0.26,
+      "E": 0.02,
+      "F": 0.0,
+      "G": 0.02,
+      "H": 0.08,
+      "I": 0.0
+    }
+  },
+  "arc_challenge": {
+    "accuracy": 0.46,
+    "stderr": 0.0712
+  },
+  "settings": {
+    "decoding": "greedy (do_sample=False)",
+    "max_tokens": 32,
+    "limit": 50
+  }
+}

@@ -1,0 +1,12 @@
+# personal workspace notes (AIS-OS project manual), not for the team repo
+CLAUDE.md
+
+# superseded experiments
+notebooks/archive/
+
+# local run artifacts
+logs/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
