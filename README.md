@@ -29,7 +29,10 @@ Our project is **AI Control**: a small, *trusted* model overseeing a stronger, *
 
 ## Run it yourself (Google Colab, ~10 min)
 
-1. Open [colab.research.google.com](https://colab.research.google.com) → **File → Upload notebook** → `notebooks/01_inspect_truthfulqa.ipynb`.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asadullah-moghul/qwen-truthfulqa-inspect/blob/main/notebooks/01_inspect_truthfulqa.ipynb) **Main experiment**  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asadullah-moghul/qwen-truthfulqa-inspect/blob/main/notebooks/02_under_the_hood_arc.ipynb) Under the hood (optional)
+
+1. Click a badge above. The notebook opens in Colab directly from this repo (use **File → Save a copy in Drive** to keep your edits).
 2. **Runtime → Change runtime type → T4 GPU.**
 3. Run cell by cell. `LIMIT = 50` by default; set `LIMIT = None` for all 817 questions.
 4. To try a bigger overseer, set `MODEL = "hf/Qwen/Qwen2.5-1.5B-Instruct"`.
